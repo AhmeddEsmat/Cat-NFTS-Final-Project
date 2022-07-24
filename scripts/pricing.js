@@ -1,6 +1,11 @@
 var cartDiv = document.querySelector(".cart");
 var cartDivOl = document.querySelector(".ol");
 const nftsContainer = document.querySelector(".CatsGallery");
+var loader = document.querySelector(".preloader");
+
+window.addEventListener('load', function(){
+    loader.style.display = "none";
+});
 
 function display(){
     if (cartDiv.style.display == "none"){
@@ -64,13 +69,6 @@ function changeNumber(action,id) {
         if (action === "minus" && numberOfUnits > 1) {
             numberOfUnits--;
         }
-        // else if (action === "minus" && numberOfUnits <= 1) {
-            //remove from cart
-            // deleteFromCart(id);
-            // item.deleteFromCart(id);
-            // cart = cart.filter((item) => item.id !== id);
-            // console.log("hello");
-        // }
         else if (action === "plus") {
         numberOfUnits++;
         }

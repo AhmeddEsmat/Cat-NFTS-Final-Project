@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 .Pricing p {
     margin-left: 1%;
 }
