@@ -1,0 +1,49 @@
+.Pricing p {
+    margin-left: 1%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-width: 300px; */
+    margin: auto;
+    text-align: center;
+}
+.community {
+    padding: 0 3.5%;
+}
+.community div {
+    width: 27%;
+    margin: 2% auto;
+    padding: 1%;
+    background-color: rgb(33, 37, 41);
+    color: white;
+    border-radius: 25px;
+    transition: all 0.4s;
+}
+.community div:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px #12121264);
+}
+.community i {
+    font-size: 3rem;
+    color: #fff;
+    margin: 3%;
+}
+.community i:hover {
+    color: #F00059;
+}
+.community p {
+    padding: 2%;
+}
+.community a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.community a:hover {
+    background-color: #F00059;
+    transform: translate(0, -40%);
+}

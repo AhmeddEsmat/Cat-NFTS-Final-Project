@@ -7,6 +7,7 @@
     <title>Awesome Cats</title>
     <link rel="icon" href="/res/cats-whymint.png" type="image/x-icon">
     <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/pricing.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
@@ -22,8 +23,8 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link active" href="#">Gallery</a>
-              <a class="nav-link active" href="pricing.html">Pricing</a>
+              <a class="nav-link active" href="gallery.html">Gallery</a>
+              <a class="nav-link active" href="#">Pricing</a>
               <a class="nav-link active" href="index.html#collection">
                 <button class="btn btn-light">Mint your NFT</button>
               </a>
@@ -32,16 +33,6 @@
               </button>
               <div class="cart">
                 <ol class="ol">
-                  <!-- <li>
-                    <img src="res/9938.jpg" alt="" class="shopImg">
-                    <p>50jjjjjjjjjjjjjjj</p>
-                  </li>
-                  <li>
-                    <img src="res/9938.jpg" alt="" class="shopImg">
-                    <p>50jjjjjjjjjjjjjjj</p>
-                    <button><i class='fa-solid fa-minus'></i></button>
-                    <button><i class='fa-solid fa-plus'></i></button>
-                  </li> -->
                 </ol>
               </div>
             </div>
@@ -49,14 +40,42 @@
         </div>
     </nav>
 
-    <sec class="container items Gallery" id="collection">
+    <sec class="container items Gallery Pricing" id="collection">
       <div class="row">
         <div class="col">
-          <h2>Check Our Pawesome <span>Tron</span> Collection</h2>
+            <h2>Join our Community</h2>
+            <p>Did someone say ‘giveaways’? 
+                Don’t miss a single update 
+                from <br> the Awesome Cats Tron team.
+                 Let’s talk kitties today!
+            </p>
         </div>
       </div>
-      <div class="row itemsCollection CatsGallery justify-content-center">
-       <!--Render Items Here--> 
+      <div class="row community justify-content-center">
+        <div class="col-3 card ">
+            <i class="fa-brands fa-twitter"></i>
+            <h4 class="card-title">Twitter</h4>
+            <p class="card-text">
+                Follow us on the Twitterverse and see what’s trending on Tron Cool Cats
+            </p>
+            <a href="https://twitter.com/tron_cool_cats" class="btn btn-primary">Join Us</a>
+        </div>
+        <div class="col-3 card">
+            <i class="fa-brands fa-telegram"></i>
+            <h4 class="card-title">Telegram</h4>
+            <p class="card-text">
+                Keep an eye on what’s new on the go right from your beloved messenger app
+            </p>
+            <a href="https://telegram.com/tron_cool_cats" class="btn btn-primary">Join Us</a>
+        </div>
+        <div class="col-3 card">
+            <i class="fa-brands fa-discord"></i>
+            <h4 class="card-title">Discord</h4>
+            <p class="card-text">
+                More of a Discord-kind of person? We have you covered. Jump in our discord server
+            </p>
+            <a href="https://discord.com/tron_cool_cats" class="btn btn-primary">Join Us</a>
+        </div>
       </div>
     </sec>
 
@@ -107,6 +126,8 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="scripts/collection.js"></script>
-    <script src="scripts/gallery.js"></script>
+    <script src="scripts/cats.js"></script>
+    <script src="scripts/pricing.js"></script>
+
 </body>
 </html>
