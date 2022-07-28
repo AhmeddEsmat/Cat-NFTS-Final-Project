@@ -50,6 +50,20 @@ html {
     background-color: #F00059;
     transform: translate(0, -40%);
 }
+@media (min-width:451px) and (max-width:992px) {
+    .community div {
+        margin: 0.5% auto;
+        padding: 2%;
+        border-radius: 1.2rem;
+    }
+    .community h2 {
+        font-size: 1.2rem;
+    }
+    .community p {
+        font-size: 0.9rem;
+        height: 80%;
+    }
+}
 @media (max-width:450px) {
     .community div {
         width: 95%;
