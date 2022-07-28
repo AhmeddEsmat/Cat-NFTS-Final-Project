@@ -33,8 +33,6 @@ function updateCart() {
     cartDiv.innerHTML = `
         <p class="total">Cart Total : <i class="fa-brands fa-ethereum"></i>${totalPrice}</p>
         <div class="buttonContainer"><button class="checkout" onclick="checkout()">Checkout</button></div>
-        <ol class="ol">
-        </ol>
     `;
     cart.forEach((item) => {
         cartDiv.innerHTML += `

@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 .Pricing p {
     margin-left: 1%;
 }
@@ -19,7 +19,7 @@ html {
     padding: 1%;
     background-color: rgb(33, 37, 41);
     color: white;
-    border-radius: 25px;
+    border-radius: 1.8rem;
     transition: all 0.4s;
 }
 .community div:hover {
@@ -49,4 +49,18 @@ html {
 .community a:hover {
     background-color: #F00059;
     transform: translate(0, -40%);
+}
+@media (max-width:450px) {
+    .community div {
+        width: 95%;
+        border-radius: 1rem;
+        margin: 3%;
+    }
+    .community div:hover {
+        transform: scale(1.05);
+    }
+    .community a {
+        border-radius: 0.8rem;
+        margin: 0 3.5% 3.5%;
+    }
 }

@@ -110,6 +110,7 @@ nav .cart {
 }
 .cart::-webkit-scrollbar {
     width: 7px;
+    height: 5px;
 }
 .cart::-webkit-scrollbar-thumb {
 	/* border-radius: 10px; */
@@ -235,6 +236,7 @@ span {
 .text p, .why p {
     line-height: 35px;
     font-weight: 420;
+    text-align: justify;
 }
 .why .row {
     margin: 70px 0 70px 120px;
@@ -393,4 +395,179 @@ footer .download {
 }
 iframe {
     display: none;
+}
+@media (min-width:768px) and (max-width:992px) {
+    nav .cart {
+        top: -45%;
+        width: 62%;
+        right: 36%;
+        height: 35vh;
+        max-height: 40vh;
+    }
+    .carousel h1 {
+        margin-top: 4.5rem;
+    }
+    .text p {
+        /* padding-right: 0.7rem !important; */
+        text-align: justify;
+    }
+    .whyCatIcon {
+        padding-right: 5rem !important;
+    }
+    .why p {
+        text-align: justify;
+    }
+}
+@media (max-width:767px) {
+    * {
+        box-sizing: border-box;
+    }
+    nav {
+        max-width: 100%;
+        padding: 0.7% !important;
+    }
+    nav .navbar-brand {
+        font-size: 0.9rem;
+    }
+    button.navbar-toggler {
+        padding: 0.5% 2%;
+    }
+    nav .navbar-nav , nav .btn-light {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    nav .btn-light {
+        padding: 1% 2%;
+        margin: 1%;
+    }
+    nav .cart {
+        margin-top: 3rem;
+        top: 0;
+        width: 65%;
+        right: 32%;
+        height: 10rem;
+        max-height: 15rem;
+    }
+    .cart h4 {
+        font-size: 1.1rem;
+    }
+    .cart p , .cart .total {
+        font-size: 1rem ;
+    }
+    .cart .buttonContainer {
+        font-size: 0.9rem;
+    }
+    .cart ol {
+        padding: 0 2%;
+    }
+    .cart li {
+        padding: 0 2%;
+    }
+    .cartItem .shopImg {
+        width: 15%;
+    }
+    .cartItem .price, .cartItem .quantity {
+        font-size: 0.75rem;
+        width: 15%;
+    }
+    .cartItem .minus , .cartItem .plus, .cartItem input, .cartItem .delete {
+        font-size: 0.75rem;
+        width: 8%;
+    }
+    .cartItem .quantity {
+        width: 12%;
+    }
+    .carousel h1 {
+        margin-top: 4rem;
+        width: 100%;
+    }
+    .Gallery h2 {
+        margin-top: 3rem;
+    }
+    .container {
+        margin : 0;
+    }
+    .info .row {
+        /* width: 96%; */
+        text-align: center;
+        margin-left: 0;
+    }
+    .icons {
+        /* margin: auto auto auto 50px; */
+        /* padding-left: 56px; */
+        margin: 0;
+        text-align: center !important;
+    }
+    .icons img {
+        width: 70%;
+    }
+    .text {
+        text-align: center;
+        padding: 0 5% !important;
+    }
+    .text h2, .why h2 {
+        line-height: 2.5rem;
+    }
+    .text p, .why p {
+        text-align: justify;
+        line-height: 2rem;
+    }
+    .why .row {
+        margin: 0;
+        padding: 5%;
+    }
+    .whyCatIcon {
+        text-align: center;
+    }
+    .whyCatIcon img {
+        width: 50%;
+    }
+    .why h2 {
+        text-align: center;
+    }
+    .items .row {
+        margin-left: 0;
+    }
+    .itemsCollection {
+        margin: 2% !important;
+    }
+    .itemsCollection div {
+        margin: 0.305rem;
+    }
+    .itemsCollection button {
+        font-size: 0.75rem;
+        padding: 0 2.5%;
+        margin: 0.2rem;
+        border-radius: 7px;
+    }
+    footer .row {
+        padding: 1%;
+        margin-left: 0;
+    }
+    footer ul:not(ul.comm) {
+        line-height: 1rem;
+        margin-bottom: 1rem;
+    }
+    footer h2 {
+        font-size: 1rem;
+    }
+    footer h2 img {
+        width: 18% !important;
+    }
+    footer h3 {
+        font-size: 0.9rem;
+    }
+    footer li a, footer p {
+        font-size: 0.8rem !important;
+    }
+    footer a.social {
+        line-height: 0.2rem !important;
+    }
+    footer i {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    footer img.download {
+        width: 25%;
+    }
 }
